@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Created by Efendi Hariyadi on 10/10/18 11:05 PM
+  ~ Copyright (c) 2018 . All rights reserved.
+  ~ Last modified 10/10/18 11:05 PM
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="19.7dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_employee"
+            android:layout_width="207.3dp"
+            android:layout_height="140dp"
+            android:src="@drawable/ic_people" />
+
+        <com.coursedicoding.ngajaruiadapter.customfonts.MyTextView_Lato_Regular
+            android:id="@+id/tv_empname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="Fendi"
+            android:textColor="#373737"
+            android:textSize="16.7sp" />
+
+
+        <com.coursedicoding.ngajaruiadapter.customfonts.MyTextView_Lato_Regular
+            android:id="@+id/tv_emp_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11.7dp"
+            android:text="082123"
+            android:textColor="#a5a5a5"
+            android:textSize="12.7sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9.3dp"
+            android:orientation="horizontal">
+
+            <RatingBar
+                android:id="@+id/rate_vote"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:isIndicator="false"
+
+                android:rating="2.5" />
+
+            <com.coursedicoding.ngajaruiadapter.customfonts.MyTextView_Lato_Regular
+                android:id="@+id/tv_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_horizontal"
+                android:text="Voting"
+                android:textColor="#a5a5a5"
+                android:textSize="9.7sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

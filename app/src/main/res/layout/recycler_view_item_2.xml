@@ -1,0 +1,13 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Created by Efendi Hariyadi on 10/11/18 9:01 PM
+  ~ Copyright (c) 2018 . All rights reserved.
+  ~ Last modified 10/11/18 9:01 PM
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:id="@+id/imageView1"
+   android:layout_width="50dp"
+   android:layout_height="50dp"
+   android:layout_margin="5dp"
+   tools:src="@tools:sample/avatars" />

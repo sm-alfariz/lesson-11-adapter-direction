@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Created by Efendi Hariyadi on 10/10/18 10:06 PM
+  ~ Copyright (c) 2018 . All rights reserved.
+  ~ Last modified 10/10/18 10:06 PM
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="29.7dp"
+            android:layout_marginRight="12.3dp"
+            android:orientation="horizontal">
+
+            <com.coursedicoding.ngajaruiadapter.customfonts.MyTextView_Lato_Regular
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Top Five Best Employee of The Month"
+                android:textColor="#373737"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <com.coursedicoding.ngajaruiadapter.customfonts.MyTextView_Lato_Light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See all"
+                android:textColor="#a5a5a5"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_topbestemployee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clipToPadding="false"
+                android:divider="#fff"
+                android:dividerHeight="0dp"
+                android:orientation="horizontal"
+                android:paddingLeft="24.3dp"
+                android:paddingTop="17.7dp"
+                android:scrollbars="none"
+                tools:itemCount="3"
+                tools:listitem="@layout/recycler_view_item_2" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/moris_roman"
+            android:text="write By: Efendi Hariyadi"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

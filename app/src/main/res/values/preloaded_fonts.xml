@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Created by Efendi Hariyadi on 10/11/18 8:24 PM
+  ~ Copyright (c) 2018 . All rights reserved.
+  ~ Last modified 10/11/18 8:24 PM
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/calligraffitti</item>
+    </array>
+</resources>
