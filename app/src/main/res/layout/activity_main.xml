@@ -37,10 +37,11 @@
                 android:textSize="17sp"
                 android:textStyle="bold" />
 
-            <com.coursedicoding.ngajaruiadapter.customfonts.MyTextView_Lato_Light
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="See all"
+                android:fontFamily="@font/moris_roman"
                 android:textColor="#a5a5a5"
                 android:textSize="14sp" />
 

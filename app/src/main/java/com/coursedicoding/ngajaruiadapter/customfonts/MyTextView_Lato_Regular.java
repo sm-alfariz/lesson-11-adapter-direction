@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 
-public class MyTextView_Lato_Regular extends TextView {
+public class MyTextView_Lato_Regular extends android.support.v7.widget.AppCompatTextView {
 
     public MyTextView_Lato_Regular(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
