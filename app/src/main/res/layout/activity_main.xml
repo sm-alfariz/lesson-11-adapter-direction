@@ -63,8 +63,10 @@
                 android:paddingLeft="24.3dp"
                 android:paddingTop="17.7dp"
                 android:scrollbars="none"
-                tools:itemCount="3"
-                tools:listitem="@layout/recycler_view_item_2" />
+                tools:itemCount="4"
+                tools:layoutManager="GridLayoutManager"
+                tools:listitem="@layout/recycler_view_item_3"
+                tools:spanCount="5" />
 
         </LinearLayout>
 
