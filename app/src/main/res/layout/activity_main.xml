@@ -72,7 +72,7 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/moris_roman"
+            android:fontFamily="@font/covered_by_your_grace"
             android:text="write By: Efendi Hariyadi"
             android:textAlignment="center"
             android:textColor="#000"

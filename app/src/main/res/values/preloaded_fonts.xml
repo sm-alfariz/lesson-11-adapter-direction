@@ -8,5 +8,6 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/calligraffitti</item>
+        <item>@font/covered_by_your_grace</item>
     </array>
 </resources>
